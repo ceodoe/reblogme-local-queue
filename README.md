@@ -14,7 +14,7 @@ Reblogme.com, a Tumblr clone, has a broken queue system. It'll let you fill the 
     ```
     {
         "email": "your-email@example.com",
-        "password: "your reblogme password"
+        "password": "your reblogme password"
     }
     ```
 1. Run the project with `node index.js`
