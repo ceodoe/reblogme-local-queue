@@ -1,6 +1,6 @@
 # reblogme-local-queue
 
-Reblogme.com, a Tumblr clone, has a broken queue system. It'll let you fill the queue with posts, but will never actually post according to your set schedule. With `reblogme-local-queue`, you can automate the queue and run it from your computer with Node.js, Selenium and Cron.
+Reblogme.com, a Tumblr clone, has a broken queue system. It'll let you fill the queue with posts, but will never actually post according to your set schedule. With `reblogme-local-queue`, you can automate the queue and run it from your computer with Node.js, Selenium, and Cron or Windows Task Scheduler.
 
 # How to use
 
