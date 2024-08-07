@@ -1,3 +1,13 @@
+# Important: Notice about the UI redesign
+
+On August 6th, 2024, reblogme went live with a UI redesign. As usually happens when services do this, they've released it extremely half-assed, excluding a bunch of features that existed prior to the redesign. This includes the queue, which is now entirely gone from the UI. Additionally, they've completely broken the login page on Firefox Desktop.
+
+Hopefully they will add the queue back at some point, in a functional state, rendering this project unnecessary. As it stands, however, this project cannot be used with the new reblogme, since there is no queue, and logins are currently impossible on FF desktop. 
+
+The original readme is preserved below.
+
+----
+
 # reblogme-local-queue
 
 Reblogme.com, a Tumblr clone, has a broken queue system. It'll let you fill the queue with posts, but will never actually post according to your set schedule. With `reblogme-local-queue`, you can automate the queue and run it from your computer with Node.js, Selenium, and Cron or Windows Task Scheduler.
