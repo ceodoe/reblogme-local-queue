@@ -12,13 +12,13 @@ async function main() {
         .setFirefoxOptions(options)
         .build();
 
-    await driver.get("https://reblogme.com/login");
+    await driver.get("https://legacy.reblogme.com/login");
     await driver.findElement(By.id("email")).sendKeys(credentials.email);
     await driver.findElement(By.id("password")).sendKeys(credentials.password);
     await driver.findElement(By.css("button[type='submit']")).click();
     await driver.sleep(2000);
 
-    await driver.get("https://reblogme.com/queue");
+    await driver.get("https://legacy.reblogme.com/queue");
     await driver.findElement(By.css("div.publishpost:nth-of-type(1)")).click();
     await driver.sleep(2000);
     
